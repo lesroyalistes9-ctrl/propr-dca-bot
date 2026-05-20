@@ -1,0 +1,32 @@
+# Environment variables (NEVER commit your API keys)
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Data cache
+data/
+results/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
